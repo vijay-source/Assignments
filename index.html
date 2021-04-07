@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <div>
+        <h1>Book Management System</h1>
+        <div class="rightend">
+            <button onclick='display()'>Book List</button>
+            <a href="./addBook.html"><input type="button" value="Add Book" /></a>
+        </div>
+        <hr>
+    </div>
+    <section id="booklt">
+        <div class="booklist">
+            <h3>Books List</h3>
+            <input type="text" id="searchText" placeholder="Search for names..">
+
+            <button id="Search">Search</button>
+        </div>
+        <br>
+        <br>
+        <div class>
+            <table border=1pt class="center" id="mytable">
+                <tr>
+                    <th colspan>ID</th>
+                    <th colspan>Title</th>
+                    <th colspan>Author</th>
+                    <th colspan>Cost</th>
+                    <th colspan>Action</th><br>
+
+
+                </tr>
+                <tbody id="table"></tbody>
+
+
+            </table>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
