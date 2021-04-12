@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Registration page</title>
+
+
+    <style>
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+        body{  
+        font-family: Calibri, Helvetica, sans-serif;  
+        background-color: pink;  
+      } 
+    </style>
+
+</head>
+
+<body>
+  
+    <div class="center">
+        <h1>Welcome to VJ Autmobiles</h1>
+        <form>
+            <label for="fname">First Name</label> <br>
+            <input type="text" id="fname" name="fname"><br> <br>
+            <label for="lname">Last Name</label> <br>
+            <input type="text" id="lname" name="lname"><br>
+            <br>
+            <label>Choose A Car:</label> &nbsp;
+            <select>
+                <option value="Fortuner">Fortuner</option>
+                <option value="i20">i20</option>
+                <option value="Polo GT">Polo GT</option>
+                <option value="Swift">Swift</option>
+                <option value="Seltos">Seltos</option>
+            </select><br><br>
+
+            <input type="radio" name="Petrol" /> Petrol <br>
+            <input type="radio" name="Diesel" /> Diesel <br>
+            <input type="radio" name="Electric" /> Electric<br><br>
+            <label>Phone number &nbsp;<input type="text" name="phone" size="10" /></label><br><br>
+            <label>Address<br><textarea name="Address" id="Address" cols="35" rows="10"></textarea></label> <br><br>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required> <br><br>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required> <br><br>
+
+            <label for="psw-repeat"><b>Re-type Password</b></label>
+            <input type="password" placeholder="Retype Password" name="psw-repeat" required> <br><br>
+            <input type="button" value="Submit">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
