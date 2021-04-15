@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "node app1.js",
-        "dev": "nodemon app1.js"
+        "start": "concurrently \"tsc --watch\" \"node app.js\"",
+        "dev": "nodemon app.js"
     },
     "author": "barget",
     "license": "ISC",
