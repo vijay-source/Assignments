@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<div id="middle" style="text-align: center;">
+
+    <body>
+        <h1> Star Rating System</h1>
+
+        <p>Enter your rating :<input type="number" id="current"></p><br>
+
+        <p>Rating from : <input type="number" id="from">
+        </p><br>
+
+        <input type="submit" id="data" onclick="submit()"><br><br>
+
+
+        <!-- <my-rating current="4" from="5" min="1"></my-rating> -->
+
+        <script>
+            function submit() {
+                let current = document.getElementById("current").value;
+                let from = document.getElementById("from").value;
+                console.log(+current, +from)
+                document.getElementById("clr").innerHTML = ` <my-rating current=${current} from=${from} min="0"></my-rating>`;
+            }
+        </script>
+        <p id="clr" style="color:tomato; font-size: larger;"></p>
+</div>
+
+<script src="./main.js"></script>
+</body>
+
+</html>
