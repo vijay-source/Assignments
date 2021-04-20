@@ -22,7 +22,7 @@ function findAll(){
 }
 function findById(id: any){
     //we dont technically need promise but when fetch db we return a promise
-    return new Promise((resolve,reject)=>{
+    return new Promise((resolve,reject)=>{ 
         const book=books.find((p: { id: any; })=>p.id===id)
         resolve(book);
     })

@@ -1,0 +1,2 @@
+run firstly json server --watch Database/db.json
+

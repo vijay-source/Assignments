@@ -16,6 +16,7 @@ function add() {
                 form.addEventListener("submit", async(e) => {
                     e.preventDefault();
                     alert("hello");
+                  
                     console.log("event initialized")
 
                     let bookA = document.getElementById('ttl').value;
