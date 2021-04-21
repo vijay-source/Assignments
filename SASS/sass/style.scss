@@ -1,0 +1,108 @@
+
+
+$red:#ff0000;
+$font: arial, sans-serif;
+$align:center;
+$alignr:right;
+$alignl:left;
+$auto:auto;
+
+h1{
+    color:$red;
+}
+
+
+
+
+.rightend {
+    color:$red;
+    text-align:$alignr;
+}
+h3 {
+    color: $red
+}
+
+.booklist {
+    text-align:$align;
+}
+
+table.center {
+    margin-left:$auto;
+    margin-right:$auto;
+}
+
+table {
+     font-family:$font;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+td{ border: 1px solid orchid;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+   @extend td
+}
+
+#bklist{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#adbuk,.remove{
+    @extend #bklist
+}
+
+.remove{
+    background-color: black;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(24, 20, 20);
+    border-radius: 4px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/d/9/1/243965.jpg')
+}
+
+
+
+#Search{
+    font-size: larger;
+}
+
+body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/d/9/1/243965.jpg')
+}
+
+.addNewBookStyle{
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    }
+    
