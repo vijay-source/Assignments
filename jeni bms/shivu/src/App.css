@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  width:100vw;
+  height: 100vh;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar{
+  background-color: #021E39;
+  width: 100%;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+/* .Navbar .leftSide{
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Navbar .rightSide{
+  flex: 50%;
+}
+.Navbar .leftSide .links{
+  max-height:80px;
+  
+}
+.Navbar .leftSide .links .Link{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-left: 15px;
+} */
+.img{
+  max-height:80px;
+  padding-right: 10px;
+}
+
+
+
+body {
+  background-color:white;
+}
+img {
+  height: 300px;
+  width: 250px;
+}
+.card {
+  border-radius: 13px;
+  border: none
+}
+
+.card-heading {
+  font-weight: bold;
+}
+
+.form-control {
+  border: none;
+  border-radius: 10px;
+  background: rgba(165, 147, 69, 0.075)
+}
+
+.btn {
+  border: 1px solid #2979FF;
+  border-radius: 10px;
+  width: 120px
+}
+
+.forgot {
+  font: #00ACC1;
+  font-weight: bold;
+  color: #26C6DA;
+  font-size: 15px;
+  padding-left: 35px
+}
+
+.form-control {
+  background-color: #eee !important
+}
+
+.form-control:focus {
+  color: #495057;
+  border-color: #fff !important;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, .25) !important
+}
+
+a {
+  text-decoration: none !important
+}
+.Register-Form{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+}
+.slider{
+  display: inline-block !important;
+  width:100% !important;
+  max-height:80rem !important;
+}
