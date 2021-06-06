@@ -23,17 +23,19 @@
         <input type="submit" id="data" onclick="submit()"><br><br>
 
 
-        <!-- <my-rating current="4" from="5" min="1"></my-rating> -->
+        <my-rating current="4" id="ratingcomp" from="5" min="1"></my-rating>
 
         <script>
             function submit() {
-                let current = document.getElementById("current").value;
-                let from = document.getElementById("from").value;
+                let currentvalue = document.getElementById("current").value;
+                let fromvalue = document.getElementById("from").value;
                 console.log(+current, +from)
-                document.getElementById("clr").innerHTML = ` <my-rating current=${current} from=${from} min="0"></my-rating>`;
+                document.getElementById('ratingcomp').setAttribute("current",currentvalue)
+                document.getElementById('ratingcomp').setAttribute("from",fromvalue)
+              
             }
         </script>
-        <p id="clr" style="color:tomato; font-size: larger;"></p>
+    
 </div>
 
 <script src="./main.js"></script>
