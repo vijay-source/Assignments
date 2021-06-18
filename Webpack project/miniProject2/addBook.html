@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Add Book</title>
+    <header class="header" ><h1>BOOK  MANAGEMENT  SYSTEM</h1></header>
+
+</head>
+<body >
+    <div class="navbar">
+        <button  onclick="window.open('index.html','_self')" id="bookList">BookList</button>
+      </div>
+    <center><h1>Add book details</h1></center>
+    <form>
+    <div class="container">
+        <label for="bookName" class="add">Book Name:</label>
+        <input type="text" class="add" id="bookName"><br>
+        <label for="bookId" class="add"> Book id:</label>
+        <input type="number" class="add" id="bookId"><br>
+        <label for="author" class="add">Author</label>
+        <input type="text"  class="add" id="author"><br>
+        <label for="rating" class="add">Rating</label>
+        <input type="text"  class="add" id="rating"><br>
+        <input type="button" class="add1" value="Submit"  id="submit" >
+
+    </div>
+    </form>
+    <div>
+        <!-- <table id="addTable">
+            <tr>
+                <th>Title</th>
+                <th>id</th>
+                <th>Author</th>
+                <th>Rating</th>
+            </tr>
+           
+        </table> -->
+    </div>
+</body>
+<script type="module" src="./addBook.js"></script>
+</html>

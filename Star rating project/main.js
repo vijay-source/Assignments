@@ -24,7 +24,6 @@ class myRating extends HTMLElement {
     console.log("the rating value is:" + rating);
 
     let value = Math.floor(rating);
-
     var template = "";
     for (let i = 0; i < value; i++) {
       template += `<i class="fa fa-star" aria-hidden="true"></i>`;
