@@ -42,8 +42,8 @@ export class BookManager
                         row= `<tr>
                         <td>${books[i].bookId}</td>
                         <td>${books[i].title}</td>
-                        <td>${books[i].author}</td>
-                        <td>${books[i].rating}</td>
+                        <td>${books[i].author}</td> 
+                        <td>${books[i].rating} </td>
                         <td>
                         <button class="delete" id="deleteId" style="border:none;background-color:inherit;">
                        
