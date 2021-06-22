@@ -1,0 +1,10 @@
+export const LOGIN_USER="LOGIN_USER";
+export const REGISTER_USER="REGISTER_USER";
+export const LOGOUT="LOGOUT";
+export const GET_MOVIES="GET_MOVIES";
+export const GET_MOVIE_BY_ID="GET_MOVIE_BY_ID";
+export const GET_SEARCHED_MOVIES="GET_SEARCHED_MOVIES"
+export const ADD_TO_FAV="ADD_TO_FAV";
+export const USER_FAV="USER_FAV"
+export const USERS_FAV="USERS_FAV"
+export const Status="status";
