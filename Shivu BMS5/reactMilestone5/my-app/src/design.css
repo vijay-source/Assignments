@@ -1,0 +1,22 @@
+.styleauthor{
+
+    margin: 1px; /* Prevent double borders */
+    background-color: #fffdfd;
+    padding: 12px;
+    text-underline-position: below;
+}
+#author-list{
+  margin:1px;
+ 
+}
+ .styleauthor:hover {
+  background-color:grey;
+  text-decoration-color: white;
+} 
+.styleauthor::after{
+  background-color:grey;
+}
+/* .styleauthor:focus{
+  outline:blue;
+  	border: 1px solid red;
+} */
